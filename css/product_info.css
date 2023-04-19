@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+#contents{
+	width: 1300px;
+    margin: 0 auto 0;
+    padding: 30px 0 50px;
+    position:relative;
+    text-align: center;
+}
+#detail{
+	position: relative;
+    margin: 0 auto 0;
+    padding: 30px 0 0 0;
+    text-align: center;
+}
+#keyImg{
+	width:470px;
+	display: inline-block;
+	margin-right:20px;
+}
+#infoArea{
+	width:470px;
+	display: inline-block;
+	margin-left:20px;	
+}
+#info_table{
+	width:500px;
+	height:300px;
+	padding: 20px 0 10px;
+    border-top: 1px solid #eee;
+    border-bottom: 0px solid #eee;
+    border-left: 0px solid white;
+    border-right: 0px solid white;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+#info_table th{
+	padding:10px 0px 10px;
+}
+#info_table td{
+	padding:5px 0px 5px;
+}
+select{
+	width:220px;
+	height:30px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #C4C4C4;
+}
+#bottom_tep{
+	position:relative;
+	margin:50px 0px 50px 0px;
+}
+#buyBtn{
+	width:280px;
+	height:70px;
+	margin-right: 20px;	
+	font-size:18px;
+	font-weight: 700;
+	background: #333;
+	color:white;
+	cursor: pointer;
+	border-radius: 5px;
+	transition:all .3s ease
+}
+#buyBtn:hover{
+	background: white;
+	color:#333;
+	transition:all .3s ease
+}
+#cartBtn{
+	width:280px;
+	height:70px;
+	font-size:18px;
+	font-weight: 700;
+	background: #333;
+	color:white;
+	cursor: pointer;
+	border-radius: 5px;
+	transition:all .3s ease
+	
+}
+#cartBtn:hover{
+	background: white;
+	color:#333;
+	transition:all .3s ease
+}
+#sub_info{
+	position: relative;
+    margin: 0 auto 0;
+    padding: 30px 0 0 0;
+    text-align: center;
+    border-top:1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+#sub{
+	margin:20px 0px 20px;
+}
+.clear{
+	clear:both;
+}
+#info_text{
+	text-align:left;
+}
+#info_text p{
+	padding:0px 0px 0px 20px;
+	font-size:15px;
+	font-weight: 600;
+}
+#info_text li{
+	font-size:12px;
+	font-weight: 400;
+	color:gray;
+}
+#replyArea{
+	position: relative;
+    margin: 0 auto 0;
+    padding:10px 50px 0px 0px;
+    text-align: center;
+}
+#replybar{
+	width:100%;	
+}
+#replybar li{
+	height:32px;
+	width:19%;
+	float:left;
+	list-style:none;
+	text-align: center;
+	border:1px solid black;
+	padding-top:10px;
+	transition:all .3s ease 
+}
+#replybar li:hover{
+	color:#39d9c8; transition:all .3s ease
+}

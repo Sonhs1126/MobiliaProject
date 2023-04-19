@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+#location{
+	margin : 0px 100px 0px 100px;
+	border : 1px solid black;
+	width : 1700px;
+	text-align : center;
+}
+
+#find{
+	font-size : 30px;
+	font-weight : 900;
+	text-align : center;
+}
+
+#info{
+	font-size : 20px;
+	color : gray;
+	text-align : center;
+}
+
+#tel{
+	font-size : 15px;
+	color : gray;
+	text-align : center;
+}
+
+#email{
+	font-size : 15px;
+	color : gray;
+	text-align : center;
+}
+
+#rest{
+	font-size : 15px;
+	color : gray;
+	text-align : center;
+}
+
+#add{
+	font-size : 15px;
+	color : gray;
+	text-align : center;
+}
